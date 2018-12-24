@@ -79,7 +79,7 @@ def calc():
     choice = input(' Введите номер действия: \n (1.Сложение, 2.Вычитание, 3.Умножение, 4.Деление)\n')
 
     if choice == '1':
-        print('Введите слогаемые через пробел:')
+        print('Введите слагаемые через пробел:')
         arr = input().split()
         arr = list(map(int, arr))
         result = summ(*arr)
